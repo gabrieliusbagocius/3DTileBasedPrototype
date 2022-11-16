@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ccac6fc212d0a2741884bd1f083ee65d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _baseColor: {fileID: 2100000, guid: 3187a9dfee420fb4c8a65205ba32673d, type: 2}
+  - _offsetColor: {fileID: 2100000, guid: 66065b8bab54dc248a4290e2640d216e, type: 2}
+  - _renderer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

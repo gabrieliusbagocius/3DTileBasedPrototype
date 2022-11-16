@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-187572236898391001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492699146258154556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48c3cf5ce077d44c913c20c2b8535c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileName: Grass
+  _renderer: {fileID: 7492699146258154559}
+  _isWalkable: 1
+  G: 0
+  H: 0
+  previousTile: {fileID: 0}
+  OccupiedUnit: {fileID: 0}
+  _baseColor: {fileID: 2100000, guid: 3187a9dfee420fb4c8a65205ba32673d, type: 2}
+  _offsetColor: {fileID: 2100000, guid: 66065b8bab54dc248a4290e2640d216e, type: 2}
+--- !u!1001 &758311615189708402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372491, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889596578757372494, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f584cc5fe23cb040a233ee0caa571c4, type: 3}
+--- !u!1 &7492699146258154556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7889596578757372494, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 758311615189708402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7492699146258154559 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7889596578757372493, guid: 3f584cc5fe23cb040a233ee0caa571c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 758311615189708402}
+  m_PrefabAsset: {fileID: 0}
